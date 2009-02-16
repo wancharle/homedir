@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<style-scheme id="evening2" name="Evening2" version="1.0">
+	<author/>
+	<_description>
+		Evening2 theme
+	</_description>
+<!-- Iron Man Palette -->
+  <color name="background1" value="#909090"/>
+  <color name="background2" value="#919191"/>
+  <color name="background3" value="#6293AA"/>
+  <color name="background4" value="#6EA5BE"/>
+  <color name="background5" value="#A0A0A0"/>
+  <color name="blue-number" value="#00007d"/>
+  <color name="blue-comment" value="#000096"/>
+  <color name="character" value="#5A1E7D"/>
+  <color name="string" value="#00007D"/>
+  <color name="preprocessor" value="#005500"/>
+  <color name="data" value="#7D0000"/>
+
+  <!-- Global Settings -->
+  <style name="text" foreground="#black" background="background1"/>
+  <style name="selection" background="background3"/>
+  <style name="cursor" foreground="#black"/>
+  <style name="current-line" background="background1"/>
+  <style name="line-numbers" foreground="blue-number" background="background2"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match" background="background4" bold="true"/>
+  <style name="bracket-mismatch" background="background4" bold="true"/>
+  
+  <!-- Search Matching -->
+  <style name="search-match" background="background3"/>
+
+  <!-- Comments -->
+  <style name="def:comment" foreground="blue-comment" bold="true"/>
+  <style name="def:sheband" use-style="def:comment"/>
+  <style name="def:doc-comment" use-style="def:comment"/>
+  <style name="def:doc-comment-element" use-style="def:comment"/>
+
+  <!-- Constants -->
+  <style name="def:constant" foreground="blue-number"/>
+  <style name="def:decimal" use-style="def:constant"/>
+  <style name="def:base-n-integer" use-style="def:constant"/>
+  <style name="def:floating-point" use-style="def:constant"/>
+  <style name="def:complex" use-style="def:constant"/>
+  <style name="def:string" foreground="string"/>
+  <style name="def:character" foreground="character"/>
+  <style name="def:special-char" use-style="def:character"/>
+  <style name="def:special-constant" use-style="def:character"/>
+  
+
+
+  <!-- Identifiers -->
+  <style name="def:identifier" foreground="string"/>
+  <style name="def:function" use-style="def:identifier"/>
+
+  <!-- Statements -->
+  <style name="def:statement" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type" foreground="data" bold="true"/> 
+
+  <!-- Others -->
+  <style name="def:preprocessor" foreground="preprocessor"/>
+  <style name="c:included-file" use-style="def:preprocessor"/>
+  <style name="def:keyword" bold="true"/>
+  <style name="def:error" foreground="data" background="background5" underline="true"/>
+  <style name="def:note" background="background5" bold="true"/>
+  <style name="def:underlined" italic="true" underline="true"/>
+ 
+</style-scheme>

@@ -1,0 +1,1 @@
+/home/wancharle/Projetos/maquinas/wancharle/home/wancharle/.vim

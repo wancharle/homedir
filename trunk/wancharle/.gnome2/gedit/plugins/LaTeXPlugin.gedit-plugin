@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Module=LaTeXPlugin
+IAge=2
+Loader=python
+Name=LaTeX Plugin 0.1.3.1
+Description=A plugin that assists you in handling LaTeX and BibTeX files
+Authors=Michael Zeising <michael@michaels-website.de>
+Copyright=Copyright © 2007 Michael Zeising
+Website=http://live.gnome.org/Gedit/LaTeXPlugin
