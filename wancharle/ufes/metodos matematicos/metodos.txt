@@ -1,0 +1,83 @@
+Numero complexo 
+    definicao
+        z = (x,y) é complexo
+        (x,0) é um numero real identificado por x
+        (0,1) = i e i*i = -1
+        um par (0,y) é um imaginario puro
+        
+
+    propriedades
+        soma:(idem subtracao)
+            z1+z2 = (x1,y1) + (x2,y2) = (x1 + x2, y1 + y2)       
+        multiplicacao:
+            z1*z2 =(x1,y1) * (x2,y2) = (x1 * x2 - y1 * y2, x1 * y2 +x2 * y1)
+        divisao:
+            z1/z2 = (x1,y1)/(x2,y2)  = ((x1 * x2 + y1 * y2)/(x2²+y2²), (x1 * y2 - x2 * y1)/(x2²+y2²))
+        LEMBRETE:
+            Um numero complexo que não é real pode ser decomposto em uma soma de numero real com um numero immaginario puro.
+            Z=(0, y) + (x, 0) = (x, y) = x + yi
+        LEMBRETE:
+            Um par (x,y) é complexo desde que (x,0) = x seja real e (x,y) obedeca a regra de multiplicacao.
+            
+    representacao Geometrica
+        plano xy usado para representar z=(x,y) é chamado de plano complexo ou plano-z
+
+    Conjugado
+        sendo z = (x,y) definimos conjugado de z o numero ¬z talque:
+        ¬z = (x,-y)  = x - yi
+        propriedades:
+            Conjugado da soma é a soma dos conjugados:
+                ¬(z1 +z2) = ¬z1 +¬z2 (idem para subtracao,multiplcacao e divisao.)
+            LEMBRETE: A soma do numero complexo e seu conjugado é um numero real:
+                z + ¬z = 2 *RE(z)
+                
+    Valor absoluto (ou módulo)
+        |z| = raiz(x²+y²)
+        
+        geometricamente: o modulo de z é a distancia do ponto z a origem. o comprimento do vetor de z.
+        consequentemente o | z1 - z2| é a distancia entre z1 e z2
+        z*¬z= x²+y²= |z|²
+        |¬z| = |z|
+        propriedades:
+            modulo da multiplica é a multiplicacao dos modulos:
+                |z1*z2| = |z1|*|z2| (idem divisao) 
+            desiqualdades tringulares:*(importante relacao com triangulo)
+                |z1+z2|<=|z1|+|z2|
+                |z1-z2|>= |z1|-|z2|
+
+    Forma Polar
+        z= r(cos O + isen O)
+        r= |z|
+        x= rcos O
+        y= rsen O
+        tg O = y/x
+        
+        Produtos
+            z1*z2=r1*r2(cos (01+02) + isen(01+02))        
+        Potencias
+            z1*z2*..zn=r1*r2*..*rn(cos (01+02+..0n) + isen (01+02+..+0n))   
+            z^n=r^n(cos (n0) + isen (n0))   
+        Quocientes
+            z1/z2=r1/r2(cos (01-02) + isen (01-02))
+            z^-n=1/z^n= 1/r^n(cos (-n0) + i sen(-n0))    
+        caso particular:
+            1/z = 1/r(cos 0 - isen0)
+    
+        extrair raizes:
+            z0= raiz_enezima(r)(cos (0 +2pik)/n + i sen (0+2pik)/n)
+Funcoes analiticas:
+    u(x,y): retorna a parte real da funcao z
+    v(x,y): retorna a parte imaginaria da funcao z
+    limites
+        TEOREMA1:
+            f(z)=u(x,y)+iv(x,y), z = x +iy e z0=x0+iy0
+            então limite de f exite em zo e í igual a uo +ivo se e somente se os limites u e v exitem em xo e yo
+            (divide o limite em 2 limites: parte real e imaginaria.)
+    derivada
+    formulas de derivacao
+    As condicoes de Cauchy-Riemann.
+    Condicoes Suficientes
+    Função Analitica, Função inteira?
+    
+    
+        

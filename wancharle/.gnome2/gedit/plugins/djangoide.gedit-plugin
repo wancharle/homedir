@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=djangoide
+IAge=2
+Name=djangoide
+Description=Transforma o gedit em um IDE para o framework DJANGO.
+Authors=Wancharle Sebastião Quirino <wancharle@gmail.com>
+Copyright=Copyright © 2008 Wancharle Sebastião Quirino <wancharle@gmail.com>
+Website=http://www.gedit.org

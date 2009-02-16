@@ -1,0 +1,9 @@
+# [Gedit Tool]
+# Comment=django
+# Name=Nova ferramenta
+# Shortcut=F5
+# Applicability=all
+# Output=output-panel
+# Input=nothing
+
+python $GEDIT_CURRENT_DOCUMENT_DIR/manage.py runserver
