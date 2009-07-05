@@ -722,7 +722,7 @@ class ProjectPluginInstance:
 		self._open_files( file_list )
 		self._project.active = True     #GYLL  -- this line has been inserted into this function; it used to be placed  throught the program after each call to _open_project
 		print "Opening project ... " + filename
-		self._window.set_data('projeto_aberto',True)
+		
 
 	def _save_project( self, filename ):
 		"Output the project XML to a file"
