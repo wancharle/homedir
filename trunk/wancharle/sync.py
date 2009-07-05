@@ -1,9 +1,11 @@
 import os
-raiz= '/home/wancharle810/'
+raiz= os.environ['HOME']+ '/'
 sh = os.system
 path = os.path.abspath(".inputrc")
 sh("ln -fs '%s' %s"% (path,raiz))
 path = os.path.abspath(".bashrc")
+sh("ln -fs '%s' %s"% (path,raiz))
+path = os.path.abspath(".screenrc")
 sh("ln -fs '%s' %s"% (path,raiz))
 path = os.path.abspath(".vimrc")
 sh("ln -fs '%s' %s"% (path,raiz))
