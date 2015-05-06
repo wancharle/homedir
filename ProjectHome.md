@@ -1,0 +1,1 @@
+contem as configurações padroes dos meus arquivos de pasta pessoal
